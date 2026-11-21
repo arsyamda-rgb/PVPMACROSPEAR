@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpmacro",
+  "version": "${version}",
+  "name": "PvP Macro",
+  "description": "Client-side, modular PvP macro mod (Spear Attribute Swap first).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.pvpmacro.PvpMacroClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
